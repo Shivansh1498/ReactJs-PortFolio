@@ -1,0 +1,16 @@
+.portfolio__switchTheme img {
+  height: 32px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.portfolio__switchTheme .sun {
+  filter: var(--color-icon-color);
+}
+
+@media screen and (max-width: 1050px) {
+  .portfolio__switchTheme img {
+    margin: 0;
+  }
+}

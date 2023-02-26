@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "DM Sans", sans-serif;
+
+  --color-gradient-heading: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}

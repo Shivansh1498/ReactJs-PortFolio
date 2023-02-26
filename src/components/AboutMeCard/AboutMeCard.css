@@ -1,0 +1,68 @@
+.portfolio__about-me-card {
+  margin: 1.5rem 0rem;
+  padding-bottom: 20px;
+  border-bottom: 3px solid var(--color-aboutme-card-divider-line);
+}
+
+.portfolio__about-me-card__header,
+.portfolio__about-me-card__footer {
+  justify-content: space-between;
+}
+
+.portfolio__about-me-card__header h4 {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: var(--color-secondary-text);
+}
+
+.portfolio__about-me-card-chip {
+  font-family: var(--primary-font-family);
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-button-text);
+  border-radius: 100px;
+  background: var(--color-button-success);
+  height: 32px;
+  width: auto;
+}
+
+.portfolio__about-me-card__Details {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: var(--color-secondary-text);
+  margin-left: 0.3rem;
+}
+
+.portfolio__about-me-card__footer__institute-name,
+.portfolio__about-me-card__footer__location,
+.portfolio__about-me-card__footer__duration {
+  flex: 1;
+}
+
+.portfolio__about-me-card__footer__duration {
+  justify-content: flex-end;
+}
+
+.portfolio__about-me-card__footer img {
+  width: 16px;
+  height: auto;
+}
+
+@media only screen and (max-width: 915px) {
+  .portfolio__about-me-card__footer {
+    flex-direction: column;
+  }
+
+  .portfolio__about-me-card__footer__duration {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,28 @@
+body.dark-theme {
+  /* confirmed */
+  /* Global */
+  --color-bg: #191919;
+  --color-text: #000000;
+  --color-secondary-text: #a7a7a7;
+  --color-solid-heading: #42446e;
+
+  /* Navbar */
+  --color-navbar-content: #a7a7a7;
+
+  /* Chip Color */
+  --color-button-text: #018c0f;
+  --color-button-success: #d7ffe0;
+
+  /* Card Colors */
+  --color-card-bg: #363636;
+  --color-card-title: #cccccc;
+  --color-card-text: #cccccc;
+  --color-card-techstack-text: #cccccc;
+  --color-card-links-text: #ffffff;
+
+  /* About Me Card Divider */
+  --color-aboutme-card-divider-line: #a7a7a7;
+
+  /* Icon Color */
+  --color-icon-color: invert(1);
+}

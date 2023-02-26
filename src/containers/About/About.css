@@ -1,0 +1,40 @@
+.portfolio__about {
+  font-family: var(--primary-font-family);
+}
+
+.portfolio__about-work-experience,
+.portfolio__about-education {
+  margin: 2rem 0rem;
+  width: 68%;
+}
+
+.portfolio__about-me-section {
+  width: 70%;
+}
+
+.portfolio__about-me-section h3,
+.portfolio__about-work-experience h3,
+.portfolio__about-education h3 {
+  font-size: 3rem;
+  color: var(--color-solid-heading);
+}
+
+.portfolio__about-me-section p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+}
+
+@media screen and (max-width: 820px) {
+  .portfolio__about-me-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__about-work-experience,
+  .portfolio__about-education {
+    width: 100%;
+  }
+}

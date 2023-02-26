@@ -1,0 +1,27 @@
+body.default-theme {
+  /* Global */
+  --color-bg: #f5f5f5;
+  --color-text: #000000;
+  --color-secondary-text: #a7a7a7;
+  --color-solid-heading: #42446e;
+
+  /* Navbar */
+  --color-navbar-content: #666666;
+
+  /* Chip Color */
+  --color-button-text: #018c0f;
+  --color-button-success: #d7ffe0;
+
+  /* Card Colors */
+  --color-card-bg: #ffffff;
+  --color-card-title: #000000;
+  --color-card-text: #666666;
+  --color-card-techstack-text: #42446e;
+  --color-card-links-text: #000000;
+
+  /* About Me Card Divider */
+  --color-aboutme-card-divider-line: #ebeaed;
+
+  /* Icon Color */
+  --color-icon-color: invert(0);
+}
