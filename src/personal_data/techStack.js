@@ -1,39 +1,39 @@
 const techStack = [
   {
     title: "HTML Image",
-    path: "../../public/images/htmlImage.png",
+    path: "../images/techStack/htmlImage.png",
   },
   {
     title: "CSS Image",
-    path: "../../src/assets/cssImage.png",
+    path: "../images/techStack/cssImage.png",
   },
   {
     title: "Javascript Image",
-    path: "../../src/assets/javascriptImage.png",
+    path: "../images/techStack/javascriptImage.png",
   },
   {
     title: "Bootstrap Image",
-    path: "../../src/assets/bootstrapImage.png",
+    path: "../images/techStack/bootstrapImage.png",
   },
   {
     title: "Github Image",
-    path: "../../src/assets/githubImage.png",
+    path: "../images/techStack/githubImage.png",
   },
   {
     title: "Git Version Control Image",
-    path: "../../src/assets/gitVersionControlImage.png",
+    path: "../images/techStack/gitVersionControlImage.png",
   },
   {
     title: "ReactJs Image",
-    path: "../../src/assets/reactImage.png",
+    path: "../images/techStack/reactImage.png",
   },
   {
     title: "VS Code Image",
-    path: "../../src/assets/vsCodeImage.png",
+    path: "../images/techStack/vsCodeImage.png",
   },
   {
     title: "SASS Image",
-    path: "../../src/assets/sassImage.png",
+    path: "../images/techStack/sassImage.png",
   },
 ];
 
