@@ -7,7 +7,7 @@ const projects = [
     techstack_used: "",
     preview_path: "",
     github_url: "",
-    comming_soon: "../../src/assets/cardImages/commingSoonImage.jpg",
+    comming_soon: "../../src/assets/commingSoonImage.jpg",
   },
 ];
 
