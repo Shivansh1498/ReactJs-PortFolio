@@ -1,7 +1,7 @@
 const techStack = [
   {
     title: "HTML Image",
-    path: "../../src/assets/htmlImage.png",
+    path: "../../public/images/htmlImage.png",
   },
   {
     title: "CSS Image",
