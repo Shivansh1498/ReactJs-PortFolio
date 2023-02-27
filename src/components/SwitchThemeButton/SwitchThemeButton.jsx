@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import "./SwitchThemeButton.css";
 
 import { lightModeIcon, darkModeIcon } from "./images";
 
 const SwitchThemeButton = () => {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState();
 
   /**
    * Function for Changing theme to light mode
@@ -12,6 +12,7 @@ const SwitchThemeButton = () => {
    * @memberof SwitchThemeButton
    */
   const handleLightThemeChange = () => {
+    localStorage.setItem("theme", "default-theme");
     setTheme(false);
     document.querySelector("body")?.classList?.add("default-theme");
     document.querySelector("body")?.classList?.remove("dark-theme");
@@ -23,10 +24,20 @@ const SwitchThemeButton = () => {
    * @memberof SwitchThemeButton
    */
   const handleDarkThemeChange = () => {
+    localStorage.setItem("theme", "dark-theme");
     setTheme(true);
     document.querySelector("body")?.classList?.add("dark-theme");
     document.querySelector("body")?.classList?.remove("default-theme");
   };
+
+  useLayoutEffect(() => {
+    let getTheme = localStorage.getItem("theme");
+    if (getTheme == "default-theme") {
+      handleLightThemeChange();
+    } else {
+      handleDarkThemeChange();
+    }
+  }, [theme]);
 
   return (
     <>

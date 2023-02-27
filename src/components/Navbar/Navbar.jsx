@@ -34,14 +34,26 @@ const Navbar = () => {
           </div>
           <div className="portfolio__navbar-links_social-btn">
             <div>
-              <img src={github} className="github-icon" alt="github" />
+              <a
+                href="https://github.com/Shivansh1498"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} className="github-icon" alt="github" />
+              </a>
             </div>
             <div>
-              <img
-                src={social_linkedin}
-                className="linkdin-icon"
-                alt="linkdin"
-              />
+              <a
+                href="https://www.linkedin.com/in/shivansh-rawat-78440221a/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={social_linkedin}
+                  className="linkdin-icon"
+                  alt="linkdin"
+                />
+              </a>
             </div>
             <SwitchThemeButton />
           </div>
