@@ -9,7 +9,9 @@ const AboutMeCard = ({ title, jobType, instituteName, location, timeline }) => {
       <div className="portfolio__about-me-card">
         <div className="portfolio__about-me-card__header display__flex">
           <h4>{title}</h4>
-          <p className="portfolio__about-me-card-chip">{jobType}</p>
+          <div className="portfolio__about-me-card-chip">
+            <p>{jobType}</p>
+          </div>
         </div>
         <div className="portfolio__about-me-card__footer display__flex">
           <div className="portfolio__about-me-card__footer__institute-name display__flex">

@@ -11,19 +11,16 @@ const Project = ({ title, image, comming_soon }) => {
         <div className="portfolio__project-card-content">
           <h3 className="portfolio__project-card-content-title">{title}</h3>
           <p className="portfolio__project-card-content-detail">
-            This is sample project description random things are here in
-            description This is sample project lorem ipsum generator for dummy
-            content
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit amet
+            repellendus pariatur quam voluptas dicta veniam iste doloribus,
+            voluptatum Lorem, ipsum dolor.
           </p>
           <p className="portfolio__project-card-content__techstack">
-            <span>Tech stack</span> : HTML , JavaScript, SASS, React
+            <span>Tech stack</span> : HTML, CSS, JavaScript, React
           </p>
           <div className="portfolio__project-card-code-links display__flex">
             <div className="portfolio__project-card-code-link-live display__flex">
-              <img
-                src="../../../src/assets/cardImages/cardLinkIcon.svg"
-                alt=""
-              />
+              <img src="../images/cardImage/cardLinkIcon.svg" alt="" />
               <a
                 href="https://www.google.com"
                 target="_blank"
@@ -33,10 +30,7 @@ const Project = ({ title, image, comming_soon }) => {
               </a>
             </div>
             <div className="portfolio__project-card-code-link-code display__flex">
-              <img
-                src="../../../src/assets/cardImages/cardGithubCodeIcon.svg"
-                alt=""
-              />
+              <img src="../images/cardImage/cardGithubCodeIcon.svg" alt="" />
               <a
                 href="https://www.google.com"
                 target="_blank"
