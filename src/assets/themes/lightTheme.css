@@ -24,4 +24,13 @@ body.default-theme {
 
   /* Icon Color */
   --color-icon-color: invert(0);
+
+  /* Button Color */
+  --color-primary-btn-text: #ffffff;
+  --color-primary-btn-bg: #0d6efd;
+  --color-primary-btn-bg-hover: #0b5ed7;
+
+  /* Input Bar Color */
+  --color-input-bar-text: #000000;
+  --color-input-bar-bg: #ebeaed;
 }

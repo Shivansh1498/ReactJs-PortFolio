@@ -1,9 +1,14 @@
 .portfolio__project-card {
-  height: 567px;
+  --card-height: 567px;
+  --card-image-section-height: 260px;
+  --card-border-radius: 20px;
+
+  height: var(--card-height);
   width: 373px;
   background-color: var(--color-card-bg);
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
 }
 
 .portfolio__project-card-content {
@@ -11,6 +16,9 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  height: calc(var(--card-height) - var(--card-image-section-height));
+  border-bottom-left-radius: var(--card-border-radius);
+  border-bottom-right-radius: var(--card-border-radius);
 }
 
 .portfolio__project-card-content-title {
@@ -24,18 +32,21 @@
 .portfolio__project-card-content-detail {
   font-family: var(--primary-font-family);
   font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--color-card-text);
+  height: 140px;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  color: var(--color-card-text);
+  justify-content: center;
 }
 
 .portfolio__project-card-image {
-  height: 260px;
+  height: var(--card-image-section-height);
   width: inherit;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: var(--card-border-radius);
+  border-top-right-radius: var(--card-border-radius);
   overflow: hidden;
 }
 

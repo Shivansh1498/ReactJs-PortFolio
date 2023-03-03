@@ -2,7 +2,7 @@ body.dark-theme {
   /* confirmed */
   /* Global */
   --color-bg: #191919;
-  --color-text: #000000;
+  --color-text: #ffffff;
   --color-secondary-text: #a7a7a7;
   --color-solid-heading: #42446e;
 
@@ -25,4 +25,13 @@ body.dark-theme {
 
   /* Icon Color */
   --color-icon-color: invert(1);
+
+  /* Button Color */
+  --color-primary-btn-text: #ffffff;
+  --color-primary-btn-bg: #0d6efd;
+  --color-primary-btn-bg-hover: #0b5ed7;
+
+  /* Input Bar Color */
+  --color-input-bar-text: #eae8ee;
+  --color-input-bar-bg: #2a2731;
 }
