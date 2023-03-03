@@ -1,0 +1,67 @@
+.weatherReportCard__container {
+  --card-height: 390px;
+  --card-header-height: 230px;
+
+  width: 285px;
+  height: var(--card-height);
+  margin: auto;
+  border-radius: 20px;
+  background-color: var(--color-card-bg);
+  box-shadow: 2px 2px 100px rgb(0 0 0 / 20%);
+  font-family: var(--primary-font-family);
+}
+
+.weatherReportCard__container-header {
+  height: var(--card-header-height);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: radial-gradient(circle, #ffd770 0%, #fdd835 100%);
+}
+
+.weatherReportCard__container-header img {
+  height: 85px;
+  position: relative;
+}
+
+.weatherReportCard__container-header-content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #987d2e;
+}
+
+.climate-info,
+.place-name {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.temp-info {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.weatherReportCard__container-footer {
+  display: flex;
+  flex-direction: column;
+  height: calc(var(--card-height) - var(--card-header-height));
+  justify-content: space-around;
+  padding: 20px;
+  color: var(--color-card-text);
+}
+
+.weatherReportCard__container-footer .wind-info,
+.weatherReportCard__container-footer .humidity-info,
+.weatherReportCard__container-footer .pressure-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherReportCard__container-footer-details img {
+  height: 25px;
+  width: auto;
+  margin-right: 7px;
+}

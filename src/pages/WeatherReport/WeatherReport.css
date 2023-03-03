@@ -1,0 +1,50 @@
+.portfolio__weatherReport-header {
+  justify-content: space-between;
+}
+
+.portfolio__weatherReport-heading {
+  font-family: var(--primary-font-family);
+  color: var(--color-solid-heading);
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.portfolio__weatherReport-searchBar-section {
+  text-align: center;
+}
+
+.portfolio__weatherReport-searchBar {
+  width: 30%;
+  margin: 1.5rem 0rem 2.4rem 0rem;
+  padding: 7px 15px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  color: var(--color-input-bar-text);
+  background-color: var(--color-input-bar-bg);
+}
+
+.weatherReport-button {
+  color: var(--color-primary-btn-text);
+  border: 1px solid var(--color-primary-btn-bg);
+  background-color: var(--color-primary-btn-bg);
+  border-radius: 0.375rem;
+  padding: 6px 12px;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: var(--primary-font-family);
+}
+
+.weatherReport-button:hover {
+  background-color: var(--color-primary-btn-bg-hover);
+}
+
+.no-data-message {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: var(--primary-font-family);
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
