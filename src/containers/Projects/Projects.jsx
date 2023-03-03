@@ -20,6 +20,7 @@ const Projects = () => {
               preview_path={project.preview_path}
               project_description={project.project_description}
               techstack_used={project.techstack_used}
+              github_url={project.github_url}
             />
           ))}
         </div>

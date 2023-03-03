@@ -10,6 +10,7 @@ const Project = ({
   preview_path,
   project_description,
   techstack_used,
+  github_url,
 }) => {
   return (
     <>
@@ -32,11 +33,7 @@ const Project = ({
             </div>
             <div className="portfolio__project-card-code-link-code display__flex">
               <img src="../images/cardImage/cardGithubCodeIcon.svg" alt="" />
-              <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={github_url} target="_blank" rel="noopener noreferrer">
                 View Code
               </a>
             </div>
