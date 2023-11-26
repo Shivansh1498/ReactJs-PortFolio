@@ -35,6 +35,18 @@ const techStack = [
     title: "SASS Image",
     path: "../images/techStack/sassImage.png",
   },
+  {
+    title: "Redux Toolkit Image",
+    path: "../images/techStack/reduxToolkitImage.png",
+  },
+  {
+    title: "NodeJs Image",
+    path: "../images/techStack/nodejsImage.png",
+  },
+  {
+    title: "MongoDb Image",
+    path: "../images/techStack/mongodbImage.png",
+  },
 ];
 
 export default techStack;
