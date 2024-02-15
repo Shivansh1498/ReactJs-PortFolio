@@ -12,6 +12,10 @@ const techStack = [
     path: "../images/techStack/javascriptImage.png",
   },
   {
+    title: "Typescript Image",
+    path: "../images/techStack/typescriptImage.svg",
+  },
+  {
     title: "Bootstrap Image",
     path: "../images/techStack/bootstrapImage.png",
   },

@@ -13,15 +13,15 @@ const projects = [
     comming_soon: "../images/cardImage/commingSoonImage.jpg",
   },
   {
-    title: "Movix",
-    image: "../images/cardImage/posters/movix_app_poster.png",
-    image_name: "Movix App Poster",
+    title: "Youtube Clone",
+    image: "../images/cardImage/posters/youtube_clone_app_poster.png",
+    image_name: "Youtube Clone Poster",
     project_description:
-      "Navigate through a variety of cherished movies and TV shows conveniently.",
-    techstack_used: "HTML, SCSS, JavaScript, ReactJs and Redux Toolkit",
+      "Youtube Clone made using Material UI and Youtube Developer API. Redux Toolkit used for state management. It is fully responsive and also has dark mode.",
+    techstack_used: "HTML, SCSS, Typescript, ReactJs and Redux Toolkit",
     preview_path: null,
-    view_project: "https://movixreactjs.netlify.app/",
-    github_url: "https://github.com/Shivansh1498/movix",
+    view_project: "https://shivanshyoutubereactjs.netlify.app/",
+    github_url: "https://github.com/Shivansh1498/youtube-react",
     comming_soon: "../images/cardImage/commingSoonImage.jpg",
   },
   {
