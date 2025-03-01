@@ -2,15 +2,15 @@ const workExperience = [
   {
     title: "Frontend Web Developer",
     jobType: "Full Time",
-    instituteName: "Walkover",
-    location: "Indore",
-    timeline: "Apr 2022 - Nov 2022",
+    instituteName: "Rimiktech",
+    location: "Bharatpur, Rajasthan",
+    timeline: "Apr 2024 - Mar 2025",
   },
   {
     title: "Frontend Web Developer",
-    jobType: "Internship",
+    jobType: "Full Time",
     instituteName: "Walkover",
-    location: "Indore",
+    location: "Indore, Madhaya Pradesh",
     timeline: "Oct 2021 - Apr 2022",
   },
   {

@@ -12,6 +12,10 @@ const techStack = [
     path: "../images/techStack/javascriptImage.png",
   },
   {
+    title: "Typescript Image",
+    path: "../images/techStack/typescriptImage.svg",
+  },
+  {
     title: "Bootstrap Image",
     path: "../images/techStack/bootstrapImage.png",
   },
@@ -34,6 +38,18 @@ const techStack = [
   {
     title: "SASS Image",
     path: "../images/techStack/sassImage.png",
+  },
+  {
+    title: "Redux Toolkit Image",
+    path: "../images/techStack/reduxToolkitImage.png",
+  },
+  {
+    title: "NodeJs Image",
+    path: "../images/techStack/nodejsImage.png",
+  },
+  {
+    title: "MongoDb Image",
+    path: "../images/techStack/mongodbImage.png",
   },
 ];
 

@@ -36,10 +36,9 @@
   line-height: 27px;
   color: var(--color-card-text);
   height: 140px;
+  max-height: 140px;
+  max-height: 140px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .portfolio__project-card-image {
