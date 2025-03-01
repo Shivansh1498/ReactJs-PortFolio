@@ -12,15 +12,25 @@ const About = () => {
         <div className="portfolio__about-me-section">
           <h3 className="text__shadow">About Me</h3>
           <p>
-            One or more years of experience in frontend web development, where I
-            have been primarily responsible for creating a dark theme library
-            for the product I have worked on. Whenever I code, I try to keep the
-            number of lines to a minimum and document it properly. I am
-            particularly interested in working with React JS with a focus on
-            functional components. Every day, I strive to learn something new.
-            Despite not understanding the concepts sometimes, I am always
-            curious about web development. Along with web development, I am also
-            into fitness and enjoy playing basketball 🏀.
+            A React.js Developer with 2 years of experience in building scalable
+            and high-performance web applications. I have independently
+            developed the frontend for{" "}
+            <a
+              href="https://dev.blobchain.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link"
+            >
+              Blobchain
+            </a>
+            , collaborating with backend teams to structure APIs and optimize
+            performance. Passionate about crafting efficient, well-documented
+            code, I focus on functional components, leveraging libraries like
+            Material UI, Formik, and Yup. I continuously explore new techniques,
+            such as debouncing and Broadcast Channel API, to enhance user
+            experience. I am always eager to learn, experiment, and grow in the
+            evolving world of web development. Outside of coding, I enjoy
+            fitness and basketball 🏀.
           </p>
         </div>
         <div className="portfolio__about-work-experience">

@@ -26,14 +26,14 @@ const projects = [
   },
   {
     title: "Task Tracker",
-    image: "../images/cardImage/posters/task_tracker_app_poster.png",
+    // image: "../images/cardImage/posters/task_tracker_app_poster.png",
     image_name: "Task Tracker App Poster",
     project_description:
       "Task manager app made with ChakraUI. Sign up, log in, and manage tasks easily.",
     techstack_used:
       "HTML, ChakraUI, JavaScript, ReactJs, Redux Toolkit, NodeJs, ExpressJS, MongoDB and Mongoose",
     preview_path: null,
-    view_project: "https://tasktrackerreactjs.netlify.app/",
+    // view_project: "https://tasktrackerreactjs.netlify.app/",
     github_url: "https://github.com/Shivansh1498/task-tracker",
     comming_soon: "../images/cardImage/commingSoonImage.jpg",
   },
